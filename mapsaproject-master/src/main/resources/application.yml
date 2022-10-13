@@ -1,0 +1,158 @@
+#server:
+#  port: 80
+#spring:
+#  jpa:
+#    database: MYSQL
+#    show-sql: true
+#    generate-ddl: true
+#    hibernate:
+#      ddl-auto: create-drop
+#  datasource:
+#    platform: mysql
+#    url: jdbc:mysql://localhost:3306/online_shop_dev?CreateDatabaseIfNotExist=true
+#    username: root
+#    password: 91218033
+#    driverClassName: com.mysql.cj.jdbc.Driver
+#user:
+#  oauth:
+#    clientId: onlineShop
+#    clientSecret: 1234$#@!
+#    redirectUris: http://localhost:80/login
+#    user:
+#      username: username
+#      password: password
+#    accessTokenValidity: 300
+#    refreshTokenValidity: 240000
+##---
+##spring:
+##  profiles:
+##    dev
+##  datasource:
+##    platform: postgres
+##    driverClassName: org.postgresql.Driver
+##    url: jdbc:postgresql://localhost:5432/online_shop_dev
+##    username: postgres
+##    password: 91218033
+##    jpa:
+##      database: POSTGRESQL
+##      database-platform: org.hibernate.dialect.PostgreSQLDialect
+##      hibernate.ddl-auto: update
+##      generate-ddl: create-drop
+##      show-sql: true
+##---
+##spring:
+##  profiles:
+##    production
+##  datasource:
+##    platform: postgres
+##    driverClassName: org.postgresql.Driver
+##    url: jdbc:postgresql://localhost:5432/online_shop_product
+##    username: postgres
+##    password: 91218033
+##  jpa:
+##    database: POSTGRESQL
+##    database-platform: org.hibernate.dialect.PostgreSQLDialect
+##    hibernate.ddl-auto: update
+##    generate-ddl: true
+##    show-sql: true
+##---
+##spring:
+##  profiles:
+##    staging
+##  datasource:
+##    platform: postgres
+##    driverClassName: org.postgresql.Driver
+##    url: jdbc:postgresql://localhost:5432/online_shop_staging
+##    username: postgres
+##    password: 91218033
+##    jpa:
+##      database: POSTGRESQL
+##      database-platform: org.hibernate.dialect.PostgreSQLDialect
+##      hibernate.ddl-auto: update
+##      generate-ddl: true
+##      show-sql: true
+##---
+##spring:
+##  profiles:
+##    brand
+##  datasource:
+##    platform: postgres
+##    driverClassName: org.postgresql.Driver
+##    url: jdbc:postgresql://localhost:5432/mydatabase
+##    username: postgres
+##    password: 123456
+##    jpa:
+##      database: POSTGRESQL
+##      database-platform: org.hibernate.dialect.PostgreSQLDialect
+##      hibernate.ddl-auto: update
+##      generate-ddl: true
+##      show-sql: true
+##---
+##
+##
+##---
+##spring:
+##  profiles:
+##    dev_bahram
+##  datasource:
+##    platform: postgres
+##    driverClassName: org.postgresql.Driver
+##    url: jdbc:postgresql://localhost:5432/online
+##    username: postgres
+##    password: 123456
+##    jpa:
+##      database: POSTGRESQL
+##      database-platform: org.hibernate.dialect.PostgreSQLDialect
+##      hibernate.ddl-auto: update
+##      generate-ddl: true
+##      show-sql: true
+##
+##---
+##spring:
+##  profiles:
+##    product
+##  datasource:
+##    url: jdbc:mysql://localhost:3306/online_shop_dev?CreateDatabaseIfNotExist=true
+##    username: root
+##    password: 123456
+##    driver-class-name: com.mysql.jdbc.Driver
+##  jpa:
+##    database-platform: org.hibernate.dialect.MySQL8Dialect
+##    show-sql: true
+##    generate-ddl: true
+##    hibernate:
+##      ddl-auto: update
+##    database: mysql
+##
+##---
+##spring:
+##  profiles:
+##    Farshad
+##  datasource:
+##    platform: postgres
+##    driverClassName: org.postgresql.Driver
+##    url: jdbc:postgresql://localhost:5432/Mapsa
+##    username: postgres
+##    password: 123456
+##    jpa:
+##      database: POSTGRESQL
+##      database-platform: org.hibernate.dialect.PostgreSQLDialect
+##      hibernate.ddl-auto: update
+##      generate-ddl: true
+##      show-sql: true
+##---
+##spring:
+##  profile:
+##    Ali-dev
+##  jpa:
+##    database: MYSQL
+##    show-sql: true
+##    generate-ddl: true
+##    hibernate:
+##      ddl-auto: create-drop
+##  datasource:
+##    platform: mysql
+##    url:  jdbc:mysql://localhost:3306/online_shop_dev?CreateDatabaseIfNotExist=true
+##    username: root
+##    password: 91218033
+##    driverClassName: com.mysql.cj.jdbc.Driver
